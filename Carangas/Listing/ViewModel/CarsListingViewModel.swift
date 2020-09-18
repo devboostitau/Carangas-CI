@@ -20,7 +20,7 @@ class CarsListingViewModel {
     var Service: CarAPIProtocol.Type = CarAPI.self
     
     var count: Int {
-        cars.count
+        cars.count + 10
     }
     
     func loadCars() {
