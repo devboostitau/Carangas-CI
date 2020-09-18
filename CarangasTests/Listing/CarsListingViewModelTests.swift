@@ -53,7 +53,7 @@ class CarsListingViewModelTests: XCTestCase {
         sut.loadCars()
         
         //Then
-        XCTAssertEqual(sut.count, 8, "Total de carros diferente do esperado")
+        XCTAssertEqual(sut.count, 10, "Total de carros diferente do esperado")
     }
     
     func testFirstCarInfo() {
